@@ -372,6 +372,7 @@ function App() {
   }, [questionNumber, moneyPyramid]);
 
   return (
+    
     <div className="app">
       {!username ? (
         <Start setUsername={setUsername} />
