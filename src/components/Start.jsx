@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import "./Start.css";
 
 export default function Start({ setUsername }) {
   const inputRef = useRef();
@@ -8,15 +9,18 @@ export default function Start({ setUsername }) {
   };
 
   return (
-    <div className="start">
-      <input
-        className="startInput"
-        placeholder="enter your name"
-        ref={inputRef}
-      />
-      <button className="startButton" onClick={handleClick}>
-        Let's be a millionare!
-      </button>
-    </div>
+    <>
+      <div className="wallpaper"></div>
+      <div className="start">
+        <input
+          className="startInput"
+          placeholder="enter your name"
+          ref={inputRef}
+          />
+        <button className="startButton" onClick={handleClick}>
+          Let's be a millionare!
+        </button>
+      </div>
+    </>
   );
 }

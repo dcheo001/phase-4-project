@@ -11,6 +11,9 @@
     url("https://i.ytimg.com/vi/yQbJRGs0fy8/maxresdefault.jpg") center;
   display: flex;
   flex-direction: column;
+  background-size: cover;
+
+  
 }
 
 .pyramid {
